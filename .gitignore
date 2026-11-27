@@ -221,3 +221,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- research-code-harness ---
+# Workspaces created by the harness: each one is its own git repository
+# (or a worktree of the user's repository).
+/projects/*
+!/projects/.gitkeep
+.claude/settings.local.json
+/CLAUDE.local.md
